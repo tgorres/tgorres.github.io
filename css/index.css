@@ -24,13 +24,72 @@ nav {
     margin: 10px;
     padding: 3%;
 }
+.contact {
+    margin-left: 5%;
+}
+.who {
+    text-align: center;
+}
+.summary {
+    border: 2px solid rgb(112, 238, 238);
+    border-radius: 10%;
+    padding: 3%;
+    margin: 3%;
+}
+.strong-weak {
+    border: 2px solid rgb(112, 238, 238);
+    border-radius: 10%;
+    padding: 3%;
+    margin: 3%;
+}
+.goals {
+    border: 2px solid rgb(112, 238, 238);
+    border-radius: 10%;
+    padding: 3%;
+    margin: 3%;
+}
+.aside {
+    border: 2px solid rgb(76, 147, 240);
+    border-radius: 10%;
+    padding: 3%;
+    margin: 3%;
+}
+
+@media (min-width: 400px) {
+    .contact {
+        /* text-align: center; */
+        
+        margin-left: 30%;
+        /* margin-right: 40%; */
+    }
+}
+
 @media(min-width: 1024px) {
     .contact {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        /* align-items: center; */
+        margin-left: 40%;
+    }
+    .who {
+        text-align: center;
+        margin-left: 0%;
     }
 }
-@media(min-width: 1500px) {
 
+@media(min-width: 1500px) {
+    .main {
+        display: flex;
+        flex-direction: row;
+        gap: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .who {
+        text-align:left;
+        margin-left: 6%;
+    }
+    .contact {
+        margin-left: 44%;
+    }
 }
