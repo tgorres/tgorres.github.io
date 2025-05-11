@@ -6,7 +6,11 @@ html {
     flex-direction: column;
     align-items: center;
 }
-img {
+.profile-pic {
+    width: 150px;
+    height: 200px;
+}
+.wireframe {
     width: 150px;
     height: 200px;
 }
@@ -57,10 +61,7 @@ nav {
 
 @media (min-width: 400px) {
     .contact {
-        /* text-align: center; */
-        
         margin-left: 30%;
-        /* margin-right: 40%; */
     }
 }
 
@@ -68,7 +69,6 @@ nav {
     .contact {
         display: flex;
         flex-direction: column;
-        /* align-items: center; */
         margin-left: 40%;
     }
     .who {
